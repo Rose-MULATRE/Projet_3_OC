@@ -1,0 +1,241 @@
+/******General*******/
+:root {
+  --main-color: #9356DC;
+  --second-color: #FF79DA;
+  --light-green-color: #99E2D0;
+  --light-gray-color: #f7f4f4;
+  --gray-color: #e7e7e7;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+header .logo img {
+  object-fit: cover;
+}
+
+.btn {
+  background: linear-gradient(to top, var(--main-color) -15%, var(--second-color));
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 18px 22px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.location {
+  background-color: var(--gray-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 0px;
+  line-height: 20px;
+}
+.location .fa-location-dot {
+  margin-right: 15px;
+}
+
+.hero {
+  background-color: var(--light-gray-color);
+  text-align: center;
+  padding: 50px 20px;
+}
+.hero .hero-title {
+  padding: 0px 20px 18px 20px;
+}
+.hero .hero-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 21px;
+  padding-bottom: 30px;
+}
+
+.fonctionnement {
+  padding: 50px 20px;
+}
+.fonctionnement .fonct-title {
+  margin-bottom: 15px;
+}
+.fonctionnement .fonct .fonct-etape {
+  background-color: var(--light-gray-color);
+  border-radius: 25px;
+  padding: 30px 20px;
+  margin: 20px 15px 25px 30px;
+  box-shadow: 10px 10px 15px var(--gray-color);
+  font-weight: 700;
+  text-align: center;
+}
+.fonctionnement .fonct .fonct-etape .icon {
+  position: relative;
+  right: 25px;
+  font-size: 22px;
+}
+.fonctionnement .fonct .fonct-etape .mob-list {
+  color: #817e7e;
+}
+
+@media screen and (min-width: 912px) {
+  .fonctionnement {
+    padding: 20px 50px;
+  }
+  .fonctionnement .fonct {
+    display: flex;
+  }
+}
+.restaurant {
+  background-color: var(--light-gray-color);
+  padding: 50px 20px;
+}
+
+.cards {
+  margin: 20px 0px;
+}
+.cards .card {
+  background-color: #ffffff;
+  width: 100%;
+  height: 280px;
+  padding: 0px;
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+.cards .card .card-image {
+  width: 100%;
+  height: 70%;
+}
+.cards .card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.cards .card .card-info {
+  padding: 15px;
+  line-height: 25px;
+}
+.cards .card .card-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cards .card .card-info p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 912px) {
+  .restaurant {
+    padding: 20px 50px;
+  }
+  .restaurant .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .restaurant .cards .card {
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+  }
+}
+.banner {
+  height: 200px;
+  width: 100%;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  margin: 0px;
+  padding: 25px 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: var(--light-gray-color);
+}
+.menu .menu-title {
+  font-family: Shrikhand, sans-serif;
+}
+.menu .menu-section {
+  margin: 15px 0px;
+}
+.menu .menu-section .les-plats {
+  border-radius: 20px;
+  margin: 15px 3px;
+  background-color: white;
+  padding: 15px;
+  line-height: 25px;
+}
+.menu .command {
+  margin-top: 25px;
+}
+
+footer {
+  background-color: #303030;
+  color: white;
+  padding: 20px 20px;
+  line-height: 28px;
+}
+footer h3 {
+  font-family: Shrikhand, sans-serif;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+footer ul {
+  list-style-type: none;
+}
+
+.footer-icon {
+  font-size: 12px;
+}
+
+#pr {
+  font-weight: 800px;
+}
+
+#sec {
+  font-weight: 300px;
+}
+
+@media screen and (min-width: 912px) {
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  footer h3, footer .footer-info {
+    display: inline-block;
+  }
+  footer h3 {
+    margin: 20px;
+  }
+  footer ul {
+    display: inline-block;
+    margin: 20px;
+  }
+  footer ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+.banner {
+    height: 200px;
+    width: 100%;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+    .menu {
+        margin: 0px;
+        padding: 25px 10px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: var(--light-gray-color);
+     
+        .menu-title{
+            font-family: Shrikhand, sans-serif;
+        }
+
+        .menu-section{
+            margin: 15px 0px;
+        
+            .les-plats{
+                border-radius: 20px;
+                margin: 15px 3px;
+                background-color: white;
+                padding: 15px;
+                line-height: 25px;
+            }
+        }
+        .command{
+            margin-top: 25px;
+        }
+        
+    }
+    

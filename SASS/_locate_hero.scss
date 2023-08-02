@@ -1,0 +1,32 @@
+
+.location {
+    
+    background-color: var(--gray-color);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0px;
+    line-height: 20px;
+   
+    .fa-location-dot {
+        margin-right: 15px;
+    }
+}
+
+.hero {
+    background-color: var(--light-gray-color);
+    text-align: center;
+    padding: 50px 20px;
+
+    .hero-title {
+        padding: 0px 20px 18px 20px;
+    }
+
+    .hero-text {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 21px;
+        padding-bottom:30px;
+    }
+
+}

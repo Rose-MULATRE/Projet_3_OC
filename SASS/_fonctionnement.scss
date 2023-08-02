@@ -1,0 +1,43 @@
+.fonctionnement {
+    padding: 50px 20px;
+   
+    .fonct-title {
+        margin-bottom: 15px;
+    }
+
+    .fonct {
+
+     .fonct-etape {
+       
+        background-color: var(--light-gray-color);
+        border-radius: 25px;
+        padding: 30px 20px;
+        margin: 20px 15px 25px 30px;
+        box-shadow: 10px 10px 15px var(--gray-color);
+        font-weight: 700;
+        text-align: center;
+        
+        
+        .icon {
+            position: relative;
+            right: 25px;
+            font-size: 22px;
+        }
+        .mob-list{
+            color: #817e7e;
+        }
+     }
+    }
+
+}
+
+@media screen and ( min-width: 912px) {
+
+    .fonctionnement{
+        padding: 20px 50px;
+        .fonct {
+             display:flex;
+        
+      }
+    }
+}
