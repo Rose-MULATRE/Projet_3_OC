@@ -6,20 +6,24 @@ footer {
 
     h3 {
         font-family: Shrikhand, sans-serif;
-        font-weight:200;
-        padding-bottom: 15px;
+        font-weight:400;
+        margin-bottom: 15px;
         
     }
 
     ul{
         list-style-type: none;
     }    
+    a {text-decoration: none;
+        color: #ffffff;
+    }
 }
 
 .footer-icon {
     
     font-size: 12px;
-    
+    width: 13px;
+    margin-right: 7px;
 }
 
 #pr {
@@ -29,27 +33,32 @@ footer {
     font-weight: 300px;
 }
 
-@media screen and ( min-width:912px) {
+
+@media screen and ( min-width:1280px) {
 
     footer {
         display: flex;
         flex-direction: row-reverse;
+        padding: 30px 20px 0px 20px;
+        
 
         h3,.footer-info {
             display: inline-block;
         }
 
-        h3{
-            margin: 20px;
-            
+        h3 {
+            padding-bottom: 0px;
+            margin: 20px 45px 0px 60px;
         }
+
+        
 
         ul {
             display: inline-block;
-            margin: 20px;
+            margin: 16px;
 
             li { display: inline-block;
-                margin: 10px;
+                margin: 8px;
 
             }
         }

@@ -2,13 +2,25 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 15px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        height: 70px;
+        
         
     .logo { 
-        
+            width: 200px;
 
         img {
             object-fit: cover;
         }
+    }
+
+    .fa-arrow-left {
+        position: absolute;
+        left: 23px;
+        top: 25px;
+        font-weight: 900;
+        font-size: 22px;
+
     }
 }

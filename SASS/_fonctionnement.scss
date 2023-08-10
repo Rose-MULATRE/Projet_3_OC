@@ -1,43 +1,75 @@
 .fonctionnement {
     padding: 50px 20px;
+    position: relative;
    
     .fonct-title {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
     .fonct {
-
+        position: relative;
      .fonct-etape {
-       
+        
         background-color: var(--light-gray-color);
-        border-radius: 25px;
-        padding: 30px 20px;
-        margin: 20px 15px 25px 30px;
-        box-shadow: 10px 10px 15px var(--gray-color);
+        border-radius: 20px;
+        padding: 22px;
+        margin: 20px 3px 25px 13px;
+        box-shadow: 0px 3px 20px #d6d6d6;
         font-weight: 700;
+        font-size: 18px;
         text-align: center;
+        position: relative;
         
         
+        .badge {
+            border-radius: 50%;
+            background-color: var(--main-color);
+            padding: 3px 8px;
+            color: #ffffff;
+            position: absolute;
+            left: -11px;
+            font-weight:400;
+            font-size: 16px;
+        }
         .icon {
-            position: relative;
-            right: 25px;
-            font-size: 22px;
+            position: absolute;
+            left: 30px;
+            font-size: 18px;
+            color: var(--main-color);
+            width: 16px;
+            height: 16px;
+             margin-right: 25px;
         }
         .mob-list{
             color: #817e7e;
+            
+            
         }
-     }
+
+       
+    }
     }
 
 }
 
-@media screen and ( min-width: 912px) {
+@media screen and ( min-width: 1280px) {
 
     .fonctionnement{
-        padding: 20px 50px;
+        padding: 50px 150px 20px 150px;
+
+        .fonct-title {
+            margin-bottom: 5px;
+        }
+
         .fonct {
              display:flex;
-        
+             justify-content: space-between;
+
+             .fonct-etape {
+                width: 320px;
+                padding-right: 10px;
+             }
+             
       }
     }
 }
