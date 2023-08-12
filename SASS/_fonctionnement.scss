@@ -19,6 +19,7 @@
         font-size: 18px;
         text-align: center;
         position: relative;
+        &:hover {background-color: rgba($color: #FF79DA, $alpha: 0.2);}
         
         
         .badge {

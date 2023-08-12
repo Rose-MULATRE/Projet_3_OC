@@ -1,0 +1,67 @@
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+    z-index: -15000;
+    opacity: 0;
+    transition: all 0.1ms;
+    animation: fade 3s forwards, loadindex 3300ms forwards;
+    -webkit-animation: fade 3s forwards, loadindex 3300ms forwards;
+   
+
+    .load {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border:5px solid rgba($color: #9356DC, $alpha: 0.4);
+        border-top: 5px solid var(--main-color);
+        border-bottom: 5px solid var(--second-color);
+        transition: none;
+        animation: rotation 0.4s linear infinite;
+    }
+    @keyframes rotation {
+        0% {transform: rotate(0deg);}
+        25% {transform: rotate(90deg);}
+        50% {transform: rotate(180deg);}
+        75% {transform: rotate(270deg);}
+        100% {transform: rotate(360deg);}
+        
+    }
+   
+}
+@keyframes fade {
+    0% {opacity: 1;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    95% {opacity: 0.9;}
+    100% {opacity: 0;}
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 1;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    95% {opacity: 0.9;}
+    100% {opacity: 0;}
+}
+@keyframes loadindex {
+    0% {z-index: 15000;}
+    50% {z-index: 15000;}
+    75% {z-index: 15000;}
+    98% {z-index: -15000;}
+    100% {z-index:-15000;}
+}
+
+@-webkit-keyframes loadindex {
+    0% {z-index: 15000;}
+    50% {z-index: 15000;}
+    75% {z-index: 15000;}
+    98% {z-index: -15000;}
+    100% {z-index:-15000;}
+}
